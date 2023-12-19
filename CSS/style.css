@@ -5,34 +5,34 @@ body {
 }
 .container {
   background-color: rgba(246, 221, 204, 0.8);
-  text-align: center;
   border-radius: 4px;
+  text-align: center;
   padding: 8px 10px;
-  margin: 20px auto;
-  max-width: 600px;
+  margin: 12px auto;
+  max-width: 520px;
 }
 h1 {
   color: #422446;
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   font-family: "Press Start 2P";
   margin: 24px;
 }
 select {
-  color: #ffff;
-  background-color: #757575;
-  border: 1.5px solid #ffff;
+  color: #757575;
+  background-color: #ffff;
+  border: 2px solid #ffff;
   font-size: 12px;
   font-family: "Press Start 2P";
   border-radius: 2px;
-  width: 64%;
+  width: 60%;
   padding: 10px;
 }
 .reset-button {
-  color: #fff;
-  font-family: "Press Start 2P", cursive;
+  color: #ffff;
+  font-family: "Press Start 2P";
   font-size: 12px;
-  padding: 8px;
+  padding: 12px;
   margin-left: 10px;
   border: none;
   background: #ff6b97;
@@ -42,52 +42,52 @@ select {
 .reset-button:hover {
   cursor: pointer;
   background: #dd4f78;
-  box-shadow: -2.5px 0 0 0 #eb627e, 2.5px 0 0 0 #b7203b, 0 -2.5px 0 0 #eb627e,
-    0 2.5px 0 0 #b7203b;
+  box-shadow: -2.5px 0 0 0 #b7203b, 2.5px 0 0 0 #eb627e, 0 -2.5px 0 0 #b7203b,
+    0 2.5px 0 0 #eb627e;
 }
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Press Start 2P";
   margin: 0 0 10px;
 }
 .city {
-  color: #422446;
+  color: #5a265e;
   display: flex;
   justify-content: space-between;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 14px;
   margin: 24px 0;
-  line-height: 1.5;
   border-bottom: 1px dashed #757575;
 }
 .date {
   color: #bd4882;
-  font-size: 12px;
-  font-family: "Press Start 2P";
+  font-size: 20px;
+  font-family: "VT323";
   text-align: left;
 }
 .time {
-  color: #404040;
-  font-size: 30px;
+  color: #422446;
+  font-size: 24px;
   font-family: "Press Start 2P";
+  text-align: right;
   margin: 20px 0;
 }
 .time small {
-  font-size: 16px;
-  padding-right: 24px;
+  font-size: 18px;
+  padding-right: 14px;
 }
 footer {
-  color: #404040;
+  color: #454545;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   font-family: "Press Start 2P";
   line-height: 1.5;
   margin: 16px;
 }
 a {
-  color: #7b3468;
+  color: #5a265e;
 }
 a:hover {
   cursor: pointer;
-  color: #422446;
+  color: #bd4882;
 }
