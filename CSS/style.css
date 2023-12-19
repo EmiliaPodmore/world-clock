@@ -7,7 +7,7 @@ body {
   background-color: rgba(246, 221, 204, 0.8);
   text-align: center;
   border-radius: 4px;
-  padding: 10px 20px;
+  padding: 8px 10px;
   margin: 20px auto;
   max-width: 600px;
 }
@@ -19,13 +19,31 @@ h1 {
   margin: 24px;
 }
 select {
-  display: block;
-  color: #757575;
+  color: #ffff;
+  background-color: #757575;
+  border: 1.5px solid #ffff;
   font-size: 12px;
   font-family: "Press Start 2P";
   border-radius: 2px;
-  width: 72%;
+  width: 64%;
   padding: 10px;
+}
+.reset-button {
+  color: #fff;
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
+  padding: 8px;
+  margin-left: 10px;
+  border: none;
+  background: #ff6b97;
+  box-shadow: -2.5px 0 0 0 #ff8ab7, 2.5px 0 0 0 #ff395b, 0 -2.5px 0 0 #ff8ab7,
+    0 2.5px 0 0 #ff395b;
+}
+.reset-button:hover {
+  cursor: pointer;
+  background: #dd4f78;
+  box-shadow: -2.5px 0 0 0 #eb627e, 2.5px 0 0 0 #b7203b, 0 -2.5px 0 0 #eb627e,
+    0 2.5px 0 0 #b7203b;
 }
 h2 {
   font-size: 24px;
@@ -36,34 +54,40 @@ h2 {
   color: #422446;
   display: flex;
   justify-content: space-between;
+  text-align: left;
+  padding-left: 20px;
   margin: 24px 0;
+  line-height: 1.5;
   border-bottom: 1px dashed #757575;
 }
 .date {
-  font-size: 14px;
+  color: #bd4882;
+  font-size: 12px;
   font-family: "Press Start 2P";
-  color: #ff6b97;
+  text-align: left;
 }
 .time {
-  color: #000;
-  font-size: 26px;
+  color: #404040;
+  font-size: 30px;
   font-family: "Press Start 2P";
   margin: 20px 0;
 }
 .time small {
-  font-size: 10px;
+  font-size: 16px;
+  padding-right: 24px;
 }
 footer {
-  color: #757575;
+  color: #404040;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   font-family: "Press Start 2P";
   line-height: 1.5;
   margin: 16px;
 }
 a {
-  color: #80366b;
+  color: #7b3468;
 }
 a:hover {
+  cursor: pointer;
   color: #422446;
 }
