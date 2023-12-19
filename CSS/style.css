@@ -1,9 +1,69 @@
-h1 {
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/607/original/81340844a99a35cc7993166cbd9b5866.gif?1702852507");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background-color: rgba(246, 221, 204, 0.8);
   text-align: center;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+h1 {
+  color: #422446;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Press Start 2P";
+  margin: 24px;
+}
+select {
+  display: block;
+  color: #757575;
+  font-size: 12px;
+  font-family: "Press Start 2P";
+  border-radius: 2px;
+  width: 72%;
+  padding: 10px;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Press Start 2P";
+  margin: 0 0 10px;
+}
+.city {
+  color: #422446;
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+  border-bottom: 1px dashed #757575;
+}
+.date {
+  font-size: 14px;
+  font-family: "Press Start 2P";
+  color: #ff6b97;
+}
+.time {
+  color: #000;
+  font-size: 26px;
+  font-family: "Press Start 2P";
+  margin: 20px 0;
+}
+.time small {
+  font-size: 10px;
 }
 footer {
+  color: #757575;
   text-align: center;
-  font-size: 16px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 10px;
+  font-family: "Press Start 2P";
+  line-height: 1.5;
+  margin: 16px;
+}
+a {
+  color: #80366b;
+}
+a:hover {
+  color: #422446;
 }
