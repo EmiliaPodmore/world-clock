@@ -10,6 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+
     <title>World Clock</title>
   </head>
   <body>
@@ -17,7 +20,7 @@
       <h1>World Clock</h1>
       <select>
         <option value="">Select a city...</option>
-        <option value="">New York</option>
+        <option value="">Sydney</option>
         <option value="">Seoul</option>
         <option value="">Paris</option>
         <option value="">Amsterdam</option>
@@ -28,33 +31,27 @@
       <div class="city" id="london">
         <div>
           <h2>London</h2>
-          <div class="date">Sat 16th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          7:48:10
-          <small>am</small>
-        </div>
+        <div class="time"></div>
       </div>
+
       <div class="city" id="tokyo">
         <div>
           <h2>Tokyo</h2>
-          <div class="date">Sat 16th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          1:95:12
-          <small>am</small>
-        </div>
+        <div class="time"></div>
       </div>
-      <div class="city" id="sydney">
+
+      <div class="city" id="new-york">
         <div>
-          <h2>Sydney</h2>
-          <div class="date">Sat 16th 2023</div>
+          <h2>New York</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          9:37:16
-          <small>am</small>
-        </div>
+        <div class="time"></div>
       </div>
+
       <footer>
         This project was coded by
         <a
