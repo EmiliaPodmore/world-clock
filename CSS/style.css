@@ -9,7 +9,7 @@ body {
   text-align: center;
   padding: 8px 10px;
   margin: 12px auto;
-  max-width: 520px;
+  max-width: 540px;
 }
 h1 {
   color: #422446;
@@ -29,7 +29,8 @@ select {
   width: 60%;
   padding: 10px;
 }
-.reset-button {
+button {
+  display: inline;
   color: #ffff;
   font-family: "Press Start 2P";
   font-size: 12px;
@@ -40,14 +41,14 @@ select {
   box-shadow: -2.5px 0 0 0 #ff8ab7, 2.5px 0 0 0 #ff395b, 0 -2.5px 0 0 #ff8ab7,
     0 2.5px 0 0 #ff395b;
 }
-.reset-button:hover {
+button:hover {
   cursor: pointer;
   background: #dd4f78;
   box-shadow: -2.5px 0 0 0 #b7203b, 2.5px 0 0 0 #eb627e, 0 -2.5px 0 0 #b7203b,
     0 2.5px 0 0 #eb627e;
 }
 h2 {
-  font-size: 22px;
+  font-size: 24px;
   font-family: "Press Start 2P";
   margin: 0 0 10px;
 }
@@ -56,19 +57,19 @@ h2 {
   display: flex;
   justify-content: space-between;
   text-align: left;
+  padding: 8px 0;
   padding-left: 14px;
-  margin: 24px 0;
-  border-bottom: 1px dashed #757575;
+  margin: 20px 0;
 }
 .date {
   color: #bd4882;
-  font-size: 20px;
+  font-size: 22px;
   font-family: "VT323";
   text-align: left;
 }
 .time {
   color: #ffff;
-  font-size: 24px;
+  font-size: 26px;
   font-family: "Press Start 2P";
   text-shadow: 2px 0px rgba(66, 36, 70, 1);
   text-align: right;
@@ -84,6 +85,8 @@ footer {
   font-size: 11px;
   font-family: "Press Start 2P";
   line-height: 1.5;
+  border-top: 1px dashed #757575;
+  padding-top: 16px;
   margin: 16px;
 }
 a {

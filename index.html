@@ -18,38 +18,40 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="">Sydney</option>
-        <option value="">Seoul</option>
-        <option value="">Paris</option>
-        <option value="">Amsterdam</option>
-        <option value="">Buenos Aires</option>
-        <input type="submit" value="Reset" class="reset-button" />
+        <option value="Australia/Canberra">Canberra</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="Europe/Paris">Paris</option>
+        <option value="Europe/Amsterdam">Amsterdam</option>
+        <option value="America/Buenos_Aires">Buenos Aires</option>
       </select>
+      <button onclick="refreshPage()">Reset</button>
 
-      <div class="city" id="london">
-        <div>
-          <h2>London</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="london">
+          <div>
+            <h2>London</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="tokyo">
-        <div>
-          <h2>Tokyo</h2>
-          <div class="date"></div>
+        <div class="city" id="tokyo">
+          <div>
+            <h2>Tokyo</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="new-york">
-        <div>
-          <h2>New York</h2>
-          <div class="date"></div>
+        <div class="city" id="new-york">
+          <div>
+            <h2>New York</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
 
       <footer>
