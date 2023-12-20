@@ -66,7 +66,7 @@ h2 {
   text-align: left;
 }
 .time {
-  color: #422446;
+  color: #ffff;
   font-size: 24px;
   font-family: "Press Start 2P";
   text-align: right;
@@ -77,9 +77,9 @@ h2 {
   padding-right: 14px;
 }
 footer {
-  color: #454545;
+  color: #5b5959;
   text-align: center;
-  font-size: 10px;
+  font-size: 11px;
   font-family: "Press Start 2P";
   line-height: 1.5;
   margin: 16px;
