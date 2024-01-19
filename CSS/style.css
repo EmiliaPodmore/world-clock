@@ -21,8 +21,8 @@ h1 {
 }
 select {
   color: #757575;
-  background-color: #ffff;
-  border: 2px solid #ffff;
+  background-color: #fafafa;
+  border: 2px solid #fafafa;
   font-size: 12px;
   font-family: "Press Start 2P";
   border-radius: 2px;
@@ -31,7 +31,7 @@ select {
 }
 button {
   display: inline;
-  color: #ffff;
+  color: #fafafa;
   font-family: "Press Start 2P";
   font-size: 12px;
   padding: 12px;
@@ -71,7 +71,7 @@ h2 {
   text-align: left;
 }
 .time {
-  color: #ffff;
+  color: #fafafa;
   font-size: 28px;
   font-family: "Press Start 2P";
   text-shadow: 2px 3px rgba(66, 36, 70, 1);
