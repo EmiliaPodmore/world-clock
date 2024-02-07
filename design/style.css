@@ -14,7 +14,7 @@ body {
 }
 h1 {
   color: #422446;
-  text-shadow: 2px 3px rgba(255, 255, 255, 1);
+  text-shadow: 3px 3px rgba(255, 255, 255, 1);
   text-align: center;
   font-size: 30px;
   font-family: "Press Start 2P";
@@ -76,7 +76,7 @@ h2 {
   color: #fafafa;
   font-size: 28px;
   font-family: "Press Start 2P";
-  text-shadow: 2px 3px rgba(66, 36, 70, 1);
+  text-shadow: 4px 2px rgba(66, 36, 70, 1);
   text-align: right;
   margin-top: 20px;
 }
