@@ -2,6 +2,7 @@ body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/607/original/81340844a99a35cc7993166cbd9b5866.gif?1702852507");
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: url("cursor.png"), auto;
 }
 .container {
   background-color: rgba(246, 221, 204, 0.8);
@@ -43,6 +44,7 @@ button {
 }
 button:hover {
   cursor: pointer;
+  color: #eaeaea;
   background: #dd4f78;
   box-shadow: -2.5px 0 0 0 #b7203b, 2.5px 0 0 0 #eb627e, 0 -2.5px 0 0 #b7203b,
     0 2.5px 0 0 #eb627e;
